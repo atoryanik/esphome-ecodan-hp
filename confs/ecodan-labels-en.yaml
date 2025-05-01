@@ -81,8 +81,8 @@ substitutions:
   heat_target_temperature: Heat Target Temperature
   heat_flow_temperature: Heat Flow Temperature
   heat_compensation_curve: Heat Compensation Curve
-  cool_target_temperature: Cool Target Temperature
-  cool_flow_temperature: Cool Flow Temperature
+  cool_target_temperature: Cool Target Temperature (N/A)
+  cool_flow_temperature: Cool Flow Temperature (N/A)
   operation_off: "Off"
   hotwater: Heating Water
   heating: Space Heating
