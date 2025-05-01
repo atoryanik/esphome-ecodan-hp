@@ -128,8 +128,8 @@ select:
       - ${heat_target_temperature}
       - ${heat_flow_temperature}
       - ${heat_compensation_curve}
-      - ${cool_target_temperature}
-      - ${cool_flow_temperature}
+      #- ${cool_target_temperature}
+      #- ${cool_flow_temperature}
     set_action:
       - lambda: |-
           auto index = id(heatpump_select_operating_mode).index_of(x);
